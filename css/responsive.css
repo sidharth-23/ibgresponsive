@@ -1,0 +1,10 @@
+@media screen and (max-width: 1080px) {
+  nav {
+    display: block;
+    height: 300px;
+    background-color: aqua;
+  }
+  .logoimg {
+    display: block;
+  }
+}

@@ -1,0 +1,425 @@
+@media screen and (max-width: 1180px) {
+  nav {
+    // flex-direction: column;
+    // height:auto;
+
+    // background-color: aqua;
+    .linksinnav {
+      margin: 0;
+
+      ul {
+        padding-left: 0;
+      }
+
+      li {
+        margin: 0;
+        padding: 0;
+
+        a {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  .desc {
+    overflow-y: scroll;
+
+    p {
+      font-size: 25px;
+      line-height: 30px;
+    }
+  }
+
+  .banner .imgholder img {
+    // width: 200px;
+  }
+
+  .logoimg {
+    justify-content: center;
+  }
+
+  .button {
+    justify-content: center;
+  }
+
+  .frame1 .companyname h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .frame1 .companymotto h2 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  nav .linksinnav li a {
+    font-size: 12px;
+  }
+
+  .frame4 div h1 {
+    font-size: 30px;
+  }
+
+  .numbers h1 {
+    font-size: 30px;
+  }
+
+  .clients h1 {
+    font-size: 30px;
+  }
+
+  .desc p {
+    font-size: 10px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  nav .linksinnav li a {
+    font-size: 10px;
+  }
+  .frame4 div h2 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  nav ul li a {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .firstrow img,
+  .secondrow img {
+    margin: 20px;
+  }
+
+  .services {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1233px) {
+  // .linediv2 {
+  //   display: none;
+  // }
+
+  .frame3 .service-grid {
+    // grid-template-columns: 50% 50% !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .desc p {
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .matter {
+    padding: 25px 0;
+    margin: 0 auto;
+
+    .matter-desc p {
+      font-size: 16px;
+    }
+  }
+
+  .numbers-desc {
+    // display:flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .matter {
+    // display: block;
+    width: 80%;
+    max-width: 100%;
+  }
+
+  .linediv {
+    display: none;
+  }
+
+  .info h2 {
+    font-size: 20px;
+  }
+
+  .footer1 {
+    height: auto;
+    display: block;
+    .blue-text {
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .servicebox .mainbox .row1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .getintouch {
+    flex-direction: column;
+
+    .info p {
+      // font-size: 20px;
+      margin-top: 30px;
+    }
+  }
+
+  .line {
+    display: none;
+  }
+
+  .footercontents ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    a {
+      text-align: center;
+    }
+  }
+
+  .footercontents {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer2 {
+    flex-direction: column;
+  }
+
+  .footercontents ul {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 950px;
+  }
+  .desc {
+    bottom: -330px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  
+  .cnt-dtls-div-main .contact-detls-div .cntctdiv-child .child1-div .cntct-sub-div2 h2{
+    padding: 0;
+  }
+  .container {
+    max-width: 750px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    max-width: 650px;
+  }
+  .cntctdiv-child {
+    padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .frame4 {
+    #prosection {
+      padding: 10px 20px;
+      h2 {
+        font-size: 24px;
+        line-height: 30px;
+      }
+    }
+  }
+  .desc p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .container {
+    max-width: 450px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .container {
+    max-width: 300px;
+  }
+}
+@media only screen and (max-width: 1180px) {
+  header nav {
+    .logoimg {
+      margin-left: 0;
+    }
+
+    .linksinnav ul {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 20px;
+      margin: 50px 0;
+      left: 0;
+      width: 100%;
+      background-color: #fffefe;
+    }
+
+    .linksinnav ul.active {
+      display: flex;
+    }
+
+    .linksinnav li {
+      // margin: 20px;
+      text-align: center;
+      padding: 10px;
+      border-bottom: 1px solid rgb(112, 104, 104);
+    }
+    .button button {
+      display: none;
+    }
+
+    .hamburger-menu {
+      display: flex;
+      // margin-right: 20px;
+      background-color: rgb(255, 255, 255);
+      flex-direction: column;
+      border-radius: 30px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgb(180, 174, 174);
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .clients {
+    padding-top: 100px;
+  }
+  .contact-detls-div {
+    // display: block;
+    flex-wrap: wrap;
+  }
+  .cntctdiv-child {
+    padding-bottom: 50px;
+  }
+  .new-child {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .servicebox .mainbox .row1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .single {
+    min-height: 290px;
+    max-width: 300px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .footer1{
+    padding: 0;
+  }
+  .servicebox {
+    .row1 {
+      .single {
+        h3 {
+          font-size: 21px;
+        }
+        p {
+          font-size: 15px;
+          line-height: 20px;
+        }
+      }
+    }
+    .simple h2 {
+      font-size: 25px;
+    }
+  }
+  .clients {
+    hr {
+      opacity: 0;
+    }
+    span {
+      font-size: 25px;
+    }
+    .firstrow {
+      justify-content: center;
+      margin-bottom: 0;
+    }
+    .secondrow {
+      justify-content: center;
+      margin-top: 0;
+    }
+  }
+  .numbers {
+    .numbers-desc{
+      padding-top: 0;
+      padding: 0p;
+      // width: 100%;
+    }
+    span {
+      font-size: 25px;
+    }
+  }
+
+  .black {
+      .footer2 {
+            .innerFooterDiv h6{
+              font-size: 11px;
+              line-height: 20px;
+            }
+          }
+        }
+      
+  .frame1 .banner {
+    height: 500px;
+  }
+  .cnt-dtls-div-main .contact-detls-div .cntctdiv-child {
+    form {
+      input {
+          width: 250px;
+        }
+      .big-input {
+        width: 250px;
+      }
+      button {
+        width: 230px;
+        margin: 0;
+    }
+  }
+    .child1-div {
+      .cntct-sub-div
+         h2 {
+           font-size: 20px;
+           }
+      
+      .cntct-sub-div2 
+        h2 {
+           padding-bottom: 0;
+          }
+
+    
+  }
+}
+}
+
+@media only screen and (max-width: 400px) {
+  .frame4 {
+    #prosection {
+      padding: 10px 20px;
+      h2 {
+        font-size: 24px;
+        line-height: 30px;
+      }
+    }
+  }
+  
+ 
+}
